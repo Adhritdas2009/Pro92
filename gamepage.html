@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Project 89</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    </head>
+    <body class="bbg bg-danger">
+        <label id="user1"></label>
+        <label id="user2"></label>
+        <center>
+            <h1>Math Game</h1>
+            <br><br>
+           
+            <div id="answerdiv" style="height: 100px; width: 500px; background-color: aliceblue; border-radius: 100px; margin-right: 50px;">
+            <h2 id="question"></h2>
+            </div>
+        
+            <br><br>
+            <div id="number1div">
+                <label>First number</label>
+                <br>
+                <input class="form-control" width="300px" type="text" id="firstinp" placeholder="Type Number" id="no1">
+                <br><br>
+            </div>
+            <div id="number2div">
+                <br>
+                <label>Second number</label>
+                <br>
+                <input class="form-control" width="300px" type="text" id="secinp" placeholder="Type Number" id="no2">
+                <br>
+            </div>
+            <button class="btn btn-danger" onclick="send()">Send</button>
+        </center>
+        <script src="gamepage.js"></script>
+    </body>
+</html>
